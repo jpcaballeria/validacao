@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="inputBox">
+            <input type="password" id="pswrd" placeholder="Password" onkeyup="checkPassword(this.value)">
+            
+            <span id="toggleBtn">
+                <img id='img' class='img'src="./img/eye-solid.svg">
+                <img id='img2' class='img2' src="./img/eye-slash-solid.svg">
+            </span>
+        </div>
+        <div class="validation">
+            <ul>
+                <li id="lower">Pelo menos uma letra minuscula</li>
+                <li id="upper">Pelo menos uma letra maiuscula</li>
+                <li id="number">Pelo menos um numero</li>
+                <li id="special">Pelo menos um caractere especial</li>
+                <li id="length">No minimo 8 caracteres</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+<script src="./js/script.js"></script>
+</html>
